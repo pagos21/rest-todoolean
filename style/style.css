@@ -24,11 +24,8 @@ h1{
 }
 
 .listSingle{
-  margin: 5px 0;
-}
-
-.listSingle{
   cursor: pointer;
+  margin: 10px 0;
 }
 
 .listSingle:hover{
@@ -51,7 +48,7 @@ h1{
   visibility: hidden;
   width: 120px;
   background-color: #ccc;
-  color: green;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
