@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: green;
+  background: black;
+}
+h1{
+  margin: 10px 0;
+  text-align: center;
+}
+
+.big_cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.big_cont > *{
+  padding: 10px 0;
+}
+
+.listSingle{
+  margin: 5px 0;
+}
+
+.listSingle{
+  cursor: pointer;
+}
+
+.listSingle:hover{
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+  list-style: circle;
+}
+
+
+.listSingle:hover + .toolTiptxt{
+  visibility: visible;
+}
+
+.toolTip{
+  position: relative;
+}
+
+.toolTiptxt{
+  visibility: hidden;
+  width: 120px;
+  background-color: #ccc;
+  color: green;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -60px;
+}
